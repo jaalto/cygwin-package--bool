@@ -1,0 +1,82 @@
+bool
+------------------------------------------
+
+Utility for matching boolean queries in text or html files
+
+A utility for finding files that match a boolean expression. It
+supports AND, OR and NOT as well as the NEAR operator for locating two
+expressions within a short distance from each other. The program has
+separate text processing and HTML processing algorithms; the former
+separates patterns separated by newlines or words separated by
+hyphens. The latter understands many features of the HTML 4.01
+standard. This program is part of the GNU project.
+
+Runtime requirements:
+  cygwin
+
+Build requirements:
+  cygwin
+
+Canonical homepage:
+  http://www.gnu.org/software/bool
+  http://packages.debian.org/bool
+
+Canonical download:
+  http://ftp.gnu.org/gnu/bool/
+
+Version control repository:
+
+Mailing list:
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  Author:
+  Bugs: Bug List <bug-bool@gnu.org>
+
+License:
+  GPL
+
+Language:
+  C
+
+------------------------------------
+
+Build instructions:
+  You may need cygbuild.sourceforge.net to build *src.tar.bz2 archive
+  unpack bool-0.2.1-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./bool*.sh all
+
+This will create:
+  bool-0.2.1-1.tar.bz2
+  bool-0.2.1-1-src.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary distro:
+
+usr/bin/bool.exe
+usr/share/doc/Cygwin/bool-0.2.1.README
+usr/share/doc/bool-0.2.1/AUTHORS
+usr/share/doc/bool-0.2.1/COPYING
+usr/share/doc/bool-0.2.1/ChangeLog
+usr/share/doc/bool-0.2.1/INSTALL
+usr/share/doc/bool-0.2.1/NEWS
+usr/share/doc/bool-0.2.1/README
+usr/share/doc/bool-0.2.1/THANKS
+usr/share/man/man1/bool.1.gz
+
+------------------
+
+Port Notes:
+
+----- version 0.2.1-1 -----
+- Initial release 2007-11-30 Jari Aalto
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@poboxes.com>
+Copyright (C) 2007 Jari Aalto; Licenced under GPL v2 or later

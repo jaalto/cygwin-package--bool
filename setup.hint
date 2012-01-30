@@ -1,0 +1,11 @@
+sdesc: "Utility for matching boolean queries in text or html files"
+ldesc: "A utility for finding files that match a boolean expression. It
+supports AND, OR and NOT as well as the NEAR operator for locating two
+expressions within a short distance from each other. The program has
+separate text processing and HTML processing algorithms; the former
+separates patterns separated by newlines or words separated by
+hyphens. The latter understands many features of the HTML 4.01
+standard. This program is part of the GNU project."
+words separated by hyphens."
+category: Text
+requires: cygwin
